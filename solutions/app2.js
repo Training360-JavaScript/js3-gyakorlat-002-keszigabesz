@@ -34,6 +34,7 @@ const cookieHandler = {
             const nameAndValueArray = value.split('=');
             cookieObject[nameAndValueArray[0]] = nameAndValueArray[1];
         }
+        return cookieObject;
     },
 }
 
